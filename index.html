@@ -7,49 +7,62 @@
 <style>
 body {
   background: black;
+  color: white;
+  font-family: Arial;
+  margin: 0;
+  padding: 15px;
 }
 
 p {
   background: yellow;
   border-radius: 10px;
   box-shadow: 0 0 2px cyan;
+  padding: 5px;
+  max-width: 600px;
 }
 
 h2 {
-  position: relative;
-  bottom: -45px;
-  width: 186px;
-  left: 73px;
   background: white;
-  padding: 5px;
   color: black;
-  font-size: 15px;
   border-radius: 5px;
+  padding: 5px;
+  width: 186px;
+  left: 65px;
+  bottom: -45px;
+  margin-bottom: 10px;
+  max-width: 600px;
+  position: relative;
+  font-size: 15px;
 }
 
 h4 {
   position: relative;
-  bottom: -25px;
   background: white;
-  font-size: 12px;
+  color: black;
   border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  max-width: 600px;
+  bottom: -25px;
+  font-size: 13px;
 }
 
-h5 {
-  background: white;
-  width: 320px;
+img {
   position: relative;
-  bottom: -3px;
-  left: 13px;
-  height: 180px;
-  border-radius: 10px;
+  bottom: -10px;
+  display: block;
+  margin: 15px 0;
+  max-width: 100%;
+  height: auto;
+  background: white;
+  border-radius: 5px;
 }
 
 details {
   position: fixed;
   top: 10px;
-  right: 0px;
-  width: 335px;
+  right: 10px;
+  width: 345px;
   background: white;
   padding: 10px;
   border-radius: 8px;
@@ -64,6 +77,8 @@ summary {
   display: flex;
   justify-content: flex-end;
   background: white;
+  padding: 5px;
+  color: black;
 }
 
 summary::-webkit-details-marker { display: none; }
@@ -71,25 +86,22 @@ summary::marker { content: none; }
 
 details p { margin: 5px 0 0 0; }
 details p a { text-decoration: none; color: #333; }
-details p a:hover {
-  color: lime;
-}
+details p a:hover { color: lime; }
 </style>
 </head>
 
 <body>
 
 <h2>Website ini masih prototype</h2>
-<h4>halo semua ini adalah website buatan novan code yang di pakai untuk melihat jadwal pelajaran dan lain lain</h4>
-<img src="logospendayu.png" width="200">
-<h6> </h6>
-<h7> </h7>
+<h4>Halo semua, ini adalah website buatan Novan Code yang dipakai untuk melihat jadwal pelajaran dan lain-lain.</h4>
+
+<img src="logospendayu.png" alt="Logo Sekolah" width="200">
 
 <details>
   <summary>(uploaded:2026) Website Class 8-H &#9776;</summary>
-  <p><a href="jadwal.html">Jadwal Pelajaran</a></p>
-  <p><a href="struktur.html">Struktur Kelas</a></p>
-  <p><a href="tentang.html">Tentang</a></p>
+  <p><a href="./jadwal.html">Jadwal Pelajaran</a></p>
+  <p><a href="./struktur.html">Struktur Kelas</a></p>
+  <p><a href="./tentang.html">Tentang</a></p>
 </details>
 
 </body>
