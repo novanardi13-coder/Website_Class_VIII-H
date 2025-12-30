@@ -9,9 +9,13 @@ body {
   background: black;
   font-family: monospace;
   margin: 0;
-  padding: 0;
+  padding-top: 70px; /* jarak untuk menu fixed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Menu fixed di kanan atas */
 details {
   position: fixed;
   top: 10px;
@@ -41,13 +45,11 @@ details p { margin: 5px 0 0 0; }
 details p a { text-decoration: none; color: #333; }
 details p a:hover { color: lime; }
 
-/* konten utama */
+/* Konten utama di bawah menu */
 .main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px; /* pastikan berada di bawah menu */
-  padding: 0 10px;
 }
 
 h2 {
