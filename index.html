@@ -10,35 +10,6 @@ body {
   font-family: monospace;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* agar logo + teks di tengah */
-}
-
-h2 {
-  background: white;
-  color: black;
-  padding: 5px;
-  font-size: 15px;
-  border-radius: 5px;
-  margin-top: 60px; /* beri jarak dari menu fixed */
-}
-
-h4 {
-  background: white;
-  color: black;
-  padding: 5px;
-  font-size: 12px;
-  border-radius: 5px;
-  margin-top: 5px;
-  text-align: center;
-  max-width: 350px;
-}
-
-img {
-  display: block;
-  margin: 10px auto;
-  width: 200px;
 }
 
 details {
@@ -70,6 +41,40 @@ details p { margin: 5px 0 0 0; }
 details p a { text-decoration: none; color: #333; }
 details p a:hover { color: lime; }
 
+/* konten utama */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; /* pastikan berada di bawah menu */
+  padding: 0 10px;
+}
+
+h2 {
+  background: white;
+  color: black;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h4 {
+  background: white;
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 350px;
+}
+
+img {
+  display: block;
+  margin: 15px 0;
+  width: 200px;
+}
 </style>
 </head>
 
@@ -82,10 +87,11 @@ details p a:hover { color: lime; }
   <p><a href="./tentang.html">Tentang</a></p>
 </details>
 
-<h2>Website ini masih prototype</h2>
-<h4>halo semua ini adalah website buatan novan code yang di pakai untuk melihat jadwal pelajaran dan lain lain</h4>
-
-<img src="logospendayu.png" alt="Logo Sekolah">
+<div class="main-content">
+  <h2>Website ini masih prototype</h2>
+  <h4>halo semua ini adalah website buatan novan code yang di pakai untuk melihat jadwal pelajaran dan lain lain</h4>
+  <img src="logospendayu.png" alt="Logo Sekolah">
+</div>
 
 </body>
 </html>
