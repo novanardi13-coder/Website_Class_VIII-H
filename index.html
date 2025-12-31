@@ -8,7 +8,6 @@
     body {
       background: white;
       font-family: monospace;
-      margin: 0;
       padding-top: 70px;
     }
     
@@ -20,7 +19,7 @@
       background: white;
       padding: 10px;
       border-radius: 8px;
-      box-shadow: 0 0 10px black;
+      box-shadow: 0 0 5px cyan;
       z-index: 1000;
       margin-bottom: 1px;
     }
@@ -45,31 +44,48 @@
     details p a:hover {
       color: lime;
     }
-
+    
     .main-content {
       position: relative;
       width: 200px;
       text-align: center;
     }
     
-    p {
+    .chs {
     	background: white;
-    	box-shadow: 0 0 5px #333;
+    	box-shadow: 0 0 5px cyan;
+    	border-radius: 5px;
+    	display: block;
+    }
+    
+    .perhatian {
+      background: white;
+      width: 300px;
+      height: 30px;
+      box-shadow: 0 2px 5px red;
+      border-radius: 10px;
+      position: absolute;
+      top: -40px;
+      left: -27px;
+      opacity: 40%;
+      z-index: 1;
     }
     
     h2 {
-      color: black;
+      background: white;
+      width: 300px;
       padding: 1px;
       border-radius: 5px;
       margin-bottom: 0px;
       text-align: center;
       position: relative;
-      left: 25px;
+      right: 28px;
+      box-shadow: 0 0 5px cyan;
+      z-index: 2;
     }
     
     h4 {
       background: white;
-      color: black;
       padding: 5px;
       border-radius: 5px;
       margin-bottom: 1px;
@@ -77,15 +93,86 @@
     }
     
     h5 {
-    	background: floralwhite;
+    	background: white;
     	position: relative;
-    	left: 25px;
+    	left: 40px;
+    	border-radius: 20px;
+    	top: 60px;
+    	width: 150px;
+    	box-shadow: 0 2px 5px cyan;
     }
     
-    img {
-      width: 200px;
+    .AS {
+      background: white;
+      box-shadow: 0 2px 5px cyan;
+      border-radius: 10px;
+      display: block;
+      width: 130px;
+      font-size: 8px;
       position: relative;
-      left: 25px;
+      bottom: 85px;
+      left: 152px;
+    }
+    
+    .AK {
+      background: white;
+      width: 130px;
+      height: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px cyan;
+      border-radius: 10px;
+      position: relative;
+      right: 40px;
+      bottom: 45px;
+      font-size: 8px;
+    }
+    
+    .img1 {
+      width: 100px;
+      position: relative;
+      left: 20px;
+      top: 5px;
+      border-radius: 5px;
+    }
+    
+    .Logo1 {
+      width: 30px;
+      box-shadow: 0 2px 5px cyan;
+      position: absolute;
+      top: 180px;
+      left: 30px;
+    }
+    
+    .Logo2 {
+      width: 30px;
+      box-shadow: 0 2px 5px cyan;
+      position: absolute;
+      top: 180px;
+      right: 178px;
+    }
+    
+    .Logo3 {
+      width: 30px;
+      box-shadow: 0 2px 5px cyan;
+      position: absolute;
+      top: 180px;
+      left: 166px;
+    }
+    
+    .Logo4 {
+      width: 30px;
+      box-shadow: 0 2px 5px cyan;
+      position: absolute;
+      top: 180px;
+      left: 204px;
+    }
+    
+    .Logo5 {
+      width: 30px;
+      box-shadow: 0 2px 5px cyan;
+      position: absolute;
+      top: 185px;
+      left: 244px;
     }
   </style>
 </head>
@@ -93,16 +180,24 @@
 
 <details>
   <summary>(2026)Website Class 8-H &#9776;</summary>
-  <p><a href="jadwal.html">Jadwal Pelajaran</a></p>
-  <p><a href="struktur.html">Struktur Kelas</a></p>
-  <p><a href="tentang.html">Tentang</a></p>
-  <p><a href="galeri.html">Galeri</a></p>
+  <p class="chs"><a href="jadwal.html">Jadwal Pelajaran</a></p>
+  <p class="chs"><a href="struktur.html">Struktur Kelas</a></p>
+  <p class="chs"><a href="tentang.html">Tentang</a></p>
+  <p class="chs"><a href="galeri.html">Galeri</a></p>
 </details>
 
 <div class="main-content" style="margin-left: 50px; margin-top: 20px;">
-  <h2>🚧sedang dalam perbaikan untuk UI lebih bagus.</h2>
-  <img src="1.jpg" alt="Sedang Dalam Pengerjaan">
-  <h5>Copyright &copy; Github | SMPN 2 WONOAYU</h5>
+  <h2>Selamat datang di website Class VIII-H</h2>
+  <img class="img1" src="logospendayu.png" alt="spendayu">
+  <h5>&copy; 2026 Vanzzcode</h5>
+  <p class="perhatian">⚠️ WEBSITE INI HANYA SUPPORT TAMPILAN HP/MOBILE⚠️</p>
+  <h6 class="AK">Follow TikTok atau IG kelas kami</h6>
+  <a href="https://vm.tiktok.com/ZSHEeaEBhQoxo-rbtj6/"><img class="Logo2" src="TikTok.jpg"></a>
+  <a href="https://www.instagram.com/_1eighthopeful?igsh=b2wyN2Z6YmUwbmFt"><img class="Logo1" src="IG.png"></a>
+  <h6 class="AS">Follow YouTube, TikTok, dan IG sekolah kami</h6>
+  <a href="https://vm.tiktok.com/ZSHEempjwyt9T-5C1Oz/"><img class="Logo3" src="TikTok.jpg"></a>
+  <a href="https://www.instagram.com/spendayu_official?igsh=YmhleDVpbzkzd3I3"><img class="Logo4" src="IG.png"></a>
+  <a href="https://youtube.com/@smpnegeri2wonoayusidoarjo552?si=2s2k4NjWTcscm1qQ"><img class="Logo5" src="YouTube.png"></a>
 </div>
 
 </body>
